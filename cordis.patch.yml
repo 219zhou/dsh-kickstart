@@ -1,0 +1,6 @@
+# dsh-kickstart bundle patch: 把引导式构建 Agent 的宿主插件插进 profile 的插件清单。
+# 安装用 `dsh plugin --profile <名字> add <路径或包名>`，这个 patch 会被自动套用，
+# 不要在 profile 自己的 patch 里再插一行同 id 的（重复 id 会让 loader 崩溃）。
+- insert:
+    - id: dsh-kickstart
+      name: 'dsh-kickstart'
