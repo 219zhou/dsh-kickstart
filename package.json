@@ -21,6 +21,14 @@
     "kickstart",
     "guided-onboarding"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/219zhou/dsh-kickstart.git"
+  },
+  "homepage": "https://github.com/219zhou/dsh-kickstart#readme",
+  "bugs": {
+    "url": "https://github.com/219zhou/dsh-kickstart/issues"
+  },
   "license": "MIT",
   "dsh": {
     "bundle": {
