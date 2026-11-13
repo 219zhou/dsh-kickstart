@@ -2,7 +2,6 @@
   "name": "dsh-kickstart",
   "version": "0.1.0",
   "description": "引导式构建：先问几句了解你，再给出三条具体的小项目建议和一条惊喜方向，选定后立刻开工。Guided first-project harness for DeepSeek Harness.",
-  "private": true,
   "type": "module",
   "main": "lib/index.js",
   "exports": {
